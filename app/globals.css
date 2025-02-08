@@ -1,0 +1,100 @@
+/* Import Tailwind CSS directives */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+  --background: linear-gradient(90deg, rgba(255,183,197,1) 0%, rgba(120,0,207,1) 100%);
+  --foreground: #000000;
+  ;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --background: linear-gradient(90deg, rgba(255,183,197,1) 0%, rgba(120,0,207,1) 100%);;
+    --foreground: #ededed;
+  }
+}
+
+.navbar {
+  transition: top 0.5s;
+  z-index: 20;
+}
+
+.jumbotron {
+  background: rgb(255,183,197);
+  background: radial-gradient(circle, rgba(255,183,197,1) 0%, rgba(255,216,224,1) 100%);
+
+  @media (min-width: 1024px) {
+    --mask:
+      radial-gradient(201.25px at 50% calc(100% - 270px),#000 99%,#0000 101%) calc(50% - 180px) 0/360px 100%,
+      radial-gradient(201.25px at 50% calc(100% + 180px),#0000 99%,#000 101%) 50% calc(100% - 90px)/360px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
+
+  @media (max-width: 1023px) {
+    --mask:
+      radial-gradient(100px at 50% calc(100% - 135px),#000 99%,#0000 101%) calc(50% - 90px) 0/180px 100%,
+      radial-gradient(100px at 50% calc(100% + 90px),#0000 99%,#000 101%) 50% calc(100% - 45px)/180px 100% repeat-x;
+    -webkit-mask: var(--mask);
+            mask: var(--mask);
+  }
+}
+
+.wavy-top {
+  @media (min-width: 1024px) {
+    padding-top: 15rem;
+  --mask:
+    radial-gradient(147.61px at 50% 207px,#000 99%,#0000 101%) calc(50% - 180px) 0/360px 100%,
+    radial-gradient(147.61px at 50% -117px,#0000 99%,#000 101%) 50% 90px/360px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+  @media (max-width: 1023px) {
+    --mask:
+    radial-gradient(54.08px at 50% 75px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+    radial-gradient(54.08px at 50% -45px,#0000 99%,#000 101%) 50% 30px/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+          mask: var(--mask);
+  }
+}
+
+.video {
+  @media (max-width: 1023px) {
+    padding-top: 10rem;
+  }
+}
+
+.mdw100 {
+  @media (min-width: 1023px) {
+    width: 30rem;
+  }
+}
+
+.close-title {
+  @media (max-width: 1023px) {
+    padding-top: 10rem;
+  }
+}
+
+.peding-b {
+  @media (min-width: 1023px) {
+    padding-bottom: 15rem; 
+  }
+  @media (max-width: 1023px) {
+    padding-bottom: 10rem; 
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-courier-prime);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
