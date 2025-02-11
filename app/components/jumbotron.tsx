@@ -12,7 +12,7 @@ export default function Jumbotron() {
                 Happy {21}<sup>st</sup> Birthday, Mung!🎉
               </h1>
               <p className="mb-8 text-lg font-normal text-white lg:text-xl">
-                📅 It's {15}<sup>th</sup> February again! and marks our {20}<sup>th</sup> of the {15}<sup>th</sup> day
+                📅 It&apos;s {15}<sup>th</sup> February again! and marks our {20}<sup>th</sup> of the {15}<sup>th</sup> day
               </p>
             </div>
             

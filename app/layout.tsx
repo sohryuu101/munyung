@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src="https://kit.fontawesome.com/8293cd5b8c.js" crossOrigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/8293cd5b8c.js" crossOrigin="anonymous" async></script>
       </head>
       <body className={`${courierPrime.variable} font-courier antialiased`}>
         <ClientSessionProvider>
