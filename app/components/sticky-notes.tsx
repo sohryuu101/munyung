@@ -55,7 +55,6 @@ export default function StickyNotes({ isAdmin }: StickyNotesProps) {
           className="relative p-6 rounded-lg shadow-lg transform rotate-1 hover:rotate-0 transition-transform duration-200"
           style={{
             background: "linear-gradient(135deg, #f9f3a1, #f8e88b)",
-            fontFamily: "'Gochi Hand', cursive",
           }}
         >
           {/* Note Pin */}
