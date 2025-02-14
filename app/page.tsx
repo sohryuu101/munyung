@@ -5,7 +5,6 @@ import { useSession } from "next-auth/react"; // Import useSession
 import Jumbotron from "./components/jumbotron";
 import Wish from "./components/wish";
 import Gallery from "./components/gallery";
-import Video from "./components/video";
 import WishForms from "./components/wish-forms";
 import StickyNotes from "./components/sticky-notes";
 import Closing from "./components/closing";
