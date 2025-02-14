@@ -28,7 +28,7 @@ export default function Navbar() {
       } backdrop-blur-sm border-gray-200`}
     >
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="http://localhost:3000" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="https://munyung.vercel.app" className="flex items-center space-x-3 rtl:space-x-reverse">
           <Image src="/maung.svg" className="pt-2" height={32} width={32} alt="Logo" />
           <span className="self-center font-semibold font-sans text-lg whitespace-nowrap text-white">
             MawMaw

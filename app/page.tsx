@@ -30,7 +30,6 @@ export default function Home() {
           background: "radial-gradient(circle, rgba(255,183,197,1) 0%, rgba(255,216,224,1) 100%)",
         }}
       >
-        <Video />
         {/* Pass isAdmin true if session exists */}
         <StickyNotes key={refreshKey} isAdmin={!!session} />
         <WishForms onMessageAdded={handleMessageAdded} />
